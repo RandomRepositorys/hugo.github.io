@@ -1,0 +1,23 @@
+{
+	"name": "tscpp.github.io",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"dependencies": {
+		"knockout": "^3.5.1",
+		"knockout-decorators": "^2.0.0",
+		"knockout-fast-foreach": "^0.6.0"
+	},
+	"devDependencies": {
+		"express": "^4.17.1",
+		"parcel": "^1.12.4",
+		"sass": "^1.26.10",
+		"typescript": "^3.9.7"
+	},
+	"scripts": {
+		"serve": "parcel watch src/index.html src/**/index.html --log-level 2 -d docs --no-hmr"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}
